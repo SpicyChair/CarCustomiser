@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let car = Car(make:"Porsche", model:"911 Turbo", topSpeed:200, acceleration:8.2, handling: 5)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text(car.displayStats())
+        }
     }
 }
 

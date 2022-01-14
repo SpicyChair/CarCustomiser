@@ -13,6 +13,9 @@
 		FDB9BE0F2791FF6900A4A5AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB9BE0E2791FF6900A4A5AC /* Preview Assets.xcassets */; };
 		FDB9BE1A2791FF6900A4A5AC /* CarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE192791FF6900A4A5AC /* CarCustomiserTests.swift */; };
 		FDB9BE252791FF6900A4A5AC /* CarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE242791FF6900A4A5AC /* CarCustomiserUITests.swift */; };
+		FDB9BE36279201A200A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
+		FDB9BE3A2792028800A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
+		FDB9BE3E2792028900A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		FDB9BE202791FF6900A4A5AC /* CarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB9BE242791FF6900A4A5AC /* CarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITests.swift; sourceTree = "<group>"; };
 		FDB9BE262791FF6900A4A5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB9BE35279201A200A4A5AC /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				FDB9BE0B2791FF6900A4A5AC /* Assets.xcassets */,
 				FDB9BE102791FF6900A4A5AC /* Info.plist */,
 				FDB9BE0D2791FF6900A4A5AC /* Preview Content */,
+				FDB9BE35279201A200A4A5AC /* Car.swift */,
 			);
 			path = CarCustomiser;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				FDB9BE0A2791FF6700A4A5AC /* ContentView.swift in Sources */,
 				FDB9BE082791FF6700A4A5AC /* CarCustomiserApp.swift in Sources */,
+				FDB9BE36279201A200A4A5AC /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB9BE3A2792028800A4A5AC /* Car.swift in Sources */,
 				FDB9BE1A2791FF6900A4A5AC /* CarCustomiserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB9BE3E2792028900A4A5AC /* Car.swift in Sources */,
 				FDB9BE252791FF6900A4A5AC /* CarCustomiserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
