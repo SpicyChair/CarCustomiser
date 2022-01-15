@@ -16,6 +16,7 @@
 		FDB9BE36279201A200A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
 		FDB9BE3A2792028800A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
 		FDB9BE3E2792028900A4A5AC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9BE35279201A200A4A5AC /* Car.swift */; };
+		FDE9315A27933A700073E5ED /* StarterCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9315927933A700073E5ED /* StarterCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FDB9BE242791FF6900A4A5AC /* CarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITests.swift; sourceTree = "<group>"; };
 		FDB9BE262791FF6900A4A5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB9BE35279201A200A4A5AC /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		FDE9315927933A700073E5ED /* StarterCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				FDB9BE102791FF6900A4A5AC /* Info.plist */,
 				FDB9BE0D2791FF6900A4A5AC /* Preview Content */,
 				FDB9BE35279201A200A4A5AC /* Car.swift */,
+				FDE9315927933A700073E5ED /* StarterCars.swift */,
 			);
 			path = CarCustomiser;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				FDB9BE0A2791FF6700A4A5AC /* ContentView.swift in Sources */,
 				FDB9BE082791FF6700A4A5AC /* CarCustomiserApp.swift in Sources */,
+				FDE9315A27933A700073E5ED /* StarterCars.swift in Sources */,
 				FDB9BE36279201A200A4A5AC /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
